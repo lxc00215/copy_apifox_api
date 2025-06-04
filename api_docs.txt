@@ -1,0 +1,223 @@
+## API Docs
+- 聊天(Chat) > Claude 官方格式 [Messages(官方Anthropic格式)](https://wpqplz6rik.apifox.cn/304421727e0.md): 
+- 聊天(Chat) > Claude 官方格式 [Messages(识图)](https://wpqplz6rik.apifox.cn/304421728e0.md): 
+- 聊天(Chat) > Claude 官方格式 [Messages(思考)](https://wpqplz6rik.apifox.cn/304421729e0.md): 也可以使用 -thinking 模型，openai 格式，我们已兼容 think
+- 聊天(Chat) > Claude 官方格式 [Messages(函数调用)](https://wpqplz6rik.apifox.cn/304421730e0.md): 
+- 聊天(Chat) > GPTs [通过关键词搜索 GPTs](https://wpqplz6rik.apifox.cn/304421731e0.md): 关键词搜索 gpts ，返回 json 数组
+- 聊天(Chat) > GPTs [通过ID搜索 GPTs](https://wpqplz6rik.apifox.cn/304421732e0.md): 通过ID搜索 GPTs 详情
+- 聊天(Chat) > GPTs [通过关键词搜索 GPTs V2](https://wpqplz6rik.apifox.cn/304421733e0.md): 关键词搜索 gpts ，返回 json 数组
+- 聊天(Chat) > GPTs [通过ID搜索 GPTs V2](https://wpqplz6rik.apifox.cn/304421734e0.md): 通过ID搜索 GPTs 详情
+- 聊天(Chat) [Chat(聊天)](https://wpqplz6rik.apifox.cn/304421716e0.md): [官方指南](https://platform.openai.com/docs/guides/text-generation/chat-completions-api)
+- 聊天(Chat) [Chat(流式返回) ](https://wpqplz6rik.apifox.cn/304421717e0.md): [官方指南](https://platform.openai.com/docs/guides/text-generation/chat-completions-api)
+- 聊天(Chat) [Chat(分析图片)](https://wpqplz6rik.apifox.cn/304421718e0.md): [官方指南](https://platform.openai.com/docs/guides/text-generation/chat-completions-api)
+- 聊天(Chat) [Chat(结构化输出) ](https://wpqplz6rik.apifox.cn/304421719e0.md): [官方指南](https://platform.openai.com/docs/guides/text-generation/chat-completions-api)
+- 聊天(Chat) [Chat(工具tools调用)](https://wpqplz6rik.apifox.cn/304421720e0.md): [官方指南](https://platform.openai.com/docs/guides/text-generation/chat-completions-api)
+- 聊天(Chat) [Chat(指定GPTs)](https://wpqplz6rik.apifox.cn/304421721e0.md): 模型名称格式为：gpt-4-gizmo-*，系统会自动进行识别
+- 聊天(Chat) [Chat(修改图片) ](https://wpqplz6rik.apifox.cn/304421722e0.md): [官方指南](https://platform.openai.com/docs/guides/text-generation/chat-completions-api)
+- 聊天(Chat) [Chat(生成图片)  ](https://wpqplz6rik.apifox.cn/304421723e0.md): [官方指南](https://platform.openai.com/docs/guides/text-generation/chat-completions-api)
+- 聊天(Chat) [Chat(分析视频) ](https://wpqplz6rik.apifox.cn/304421724e0.md): [官方指南](https://platform.openai.com/docs/guides/text-generation/chat-completions-api)
+- 聊天(Chat) [Chat(Claude Thinking)](https://wpqplz6rik.apifox.cn/304421725e0.md): 给定一个提示，该模型将返回一个或多个预测的完成，并且还可以返回每个位置的替代标记的概率。
+- 聊天(Chat) [gpt-3.5-turbo-instruct](https://wpqplz6rik.apifox.cn/304421726e0.md): 给定一个提示，该模型将返回一个或多个预测的完成，并且还可以返回每个位置的替代标记的概率。
+- RAG(嵌入、重排序 > 嵌入（Embeddings） [多模态向量嵌入](https://wpqplz6rik.apifox.cn/304421735e0.md): 获取给定输入的矢量表示，机器学习模型和算法可以轻松使用该表示。
+- RAG(嵌入、重排序 > 嵌入（Embeddings） [创建嵌入](https://wpqplz6rik.apifox.cn/304421736e0.md): 获取给定输入的矢量表示，机器学习模型和算法可以轻松使用该表示。
+- RAG(嵌入、重排序 > 重排序（Reranker） [rerank](https://wpqplz6rik.apifox.cn/304421737e0.md): 
+- 视频模型 > pixverse > 简单版 [Generate(图生视频](https://wpqplz6rik.apifox.cn/304421738e0.md): 
+- 视频模型 > pixverse > 简单版 [Generate(文生视频](https://wpqplz6rik.apifox.cn/304421739e0.md): 
+- 视频模型 > pixverse > 简单版 [获取进度(免费](https://wpqplz6rik.apifox.cn/304421740e0.md): **status**
+- 视频模型 > 快手可灵(官方格式) [文生视频](https://wpqplz6rik.apifox.cn/304421741e0.md): 本文档不实时更新，完整版请查看官方文档：https://docs.qingque.cn/d/home/eZQClW07IFEuX1csc-VejdY2M
+- 视频模型 > 快手可灵(官方格式) [图生视频](https://wpqplz6rik.apifox.cn/304421742e0.md): 本文档不实时更新，完整版请查看官方文档：https://docs.qingque.cn/d/home/eZQClW07IFEuX1csc-VejdY2M
+- 视频模型 > 快手可灵(官方格式) [视频延长](https://wpqplz6rik.apifox.cn/304421743e0.md): 1、生成视频
+- 视频模型 > 快手可灵(官方格式) [对口型](https://wpqplz6rik.apifox.cn/304421744e0.md): 1、生成视频
+- 视频模型 > 快手可灵(官方格式) [视频特效](https://wpqplz6rik.apifox.cn/304421745e0.md): 您可以根据 effect_scene 实现不同的特效效果，现支持：
+- 视频模型 > 快手可灵(官方格式) [查询任务(免费](https://wpqplz6rik.apifox.cn/304421746e0.md): 
+- 视频模型 > Luma > 官方接口格式 > 任务查询 [查询单个任务(免费](https://wpqplz6rik.apifox.cn/304421751e0.md): vip 账号的会在 video. download_url 返回 无水印地址，有时可能为空，需要另外从 无水印接口获取
+- 视频模型 > Luma > 官方接口格式 > 任务查询 [批量获取任务(免费](https://wpqplz6rik.apifox.cn/304421752e0.md): 
+- 视频模型 > Luma > 官方接口格式 [提交生成视频任务](https://wpqplz6rik.apifox.cn/304421747e0.md): 
+- 视频模型 > Luma > 官方接口格式 [扩展视频](https://wpqplz6rik.apifox.cn/304421748e0.md): task id 为需要延长的视频任务id
+- 视频模型 > Luma > 官方接口格式 [提交生成视频任务-异步](https://wpqplz6rik.apifox.cn/304421749e0.md): 提交任务速度更快，适合有上传图片这种响应慢的情况，避免客户端超时
+- 视频模型 > Luma > 官方接口格式 [获取视频无水印链接（VIP版才支持）（废弃，查询接口有返回](https://wpqplz6rik.apifox.cn/304421750e0.md): 废弃，查询接口有返回
+- 视频模型 > Luma > GoAmzAI格式(兼容版，开发接入请勿对接 [生成视频 (兼容版，开发接入请勿对接](https://wpqplz6rik.apifox.cn/304421753e0.md): 
+- 视频模型 > Luma > GoAmzAI格式(兼容版，开发接入请勿对接 [获取视频(免费](https://wpqplz6rik.apifox.cn/304421754e0.md): 
+- 视频模型 > 智谱清影 [生成(generations)](https://wpqplz6rik.apifox.cn/304421755e0.md): 
+- 视频模型 > 智谱清影 [查询(async-result)(免费](https://wpqplz6rik.apifox.cn/304421756e0.md): 
+- 视频模型 > 智谱清影 [查询(async-result) 批量(免费](https://wpqplz6rik.apifox.cn/304421757e0.md): 
+- 视频模型 > Runway > 官方格式 [提交视频生成任务](https://wpqplz6rik.apifox.cn/304421758e0.md): 
+- 视频模型 > Runway > 官方格式 [查询视频任务(免费](https://wpqplz6rik.apifox.cn/304421759e0.md): 
+- 视频模型 > Runway > 简单版(goamz > rocket [generate(文生视频](https://wpqplz6rik.apifox.cn/304421760e0.md): 
+- 视频模型 > Runway > 简单版(goamz > rocket [generate(参考图片)](https://wpqplz6rik.apifox.cn/304421761e0.md): ### 请求参数
+- 视频模型 > Runway > 简单版(goamz > rocket [查询视频任务(免费](https://wpqplz6rik.apifox.cn/304421762e0.md): 
+- 视频模型 > Runway > 简单版(goamz > rocket [video2video(视频转视频 风格重绘](https://wpqplz6rik.apifox.cn/304421763e0.md): ### 请求参数
+- 视频模型 > Runway > 简单版(goamz > rocket [Act-one 表情迁移](https://wpqplz6rik.apifox.cn/304421764e0.md): 当前仅支持16:9的视频和图片
+- 视频模型 > Viggle 舞蹈合成 > Pro 无水印 [上传舞蹈视频](https://wpqplz6rik.apifox.cn/304421765e0.md): 
+- 视频模型 > Viggle 舞蹈合成 > Pro 无水印 [创建舞蹈视频任务](https://wpqplz6rik.apifox.cn/304421766e0.md): 
+- 视频模型 > Viggle 舞蹈合成 > Pro 无水印 [上传角色图片](https://wpqplz6rik.apifox.cn/304421767e0.md): 
+- 视频模型 > Viggle 舞蹈合成 > Pro 无水印 [获取任务进度、结果(免费](https://wpqplz6rik.apifox.cn/304421768e0.md): ids 为 taskID 目前仅支持一个ID；多个ID进来只会去取第一个结果
+- 视频模型 > Viggle 舞蹈合成 > Pro 无水印 [获取官方舞蹈视频模版-获取tag](https://wpqplz6rik.apifox.cn/304421769e0.md): 这边获取的data[0].id为tagID
+- 视频模型 > Viggle 舞蹈合成 > Pro 无水印 [获取官方舞蹈视频模版-获取tag下的模版](https://wpqplz6rik.apifox.cn/304421770e0.md): 获取官方舞蹈视频模版
+- 视频模型 > Viggle 舞蹈合成 > 普通版 有水印 [上传舞蹈视频](https://wpqplz6rik.apifox.cn/304421771e0.md): 
+- 视频模型 > Viggle 舞蹈合成 > 普通版 有水印 [创建舞蹈视频任务](https://wpqplz6rik.apifox.cn/304421772e0.md): 
+- 视频模型 > Viggle 舞蹈合成 > 普通版 有水印 [上传角色图片](https://wpqplz6rik.apifox.cn/304421773e0.md): 
+- 视频模型 > Viggle 舞蹈合成 > 普通版 有水印 [获取任务进度、结果](https://wpqplz6rik.apifox.cn/304421774e0.md): ids 为 taskID 目前仅支持一个ID；多个ID进来只会去取第一个结果
+- 视频模型 > Viggle 舞蹈合成 > 普通版 有水印 [获取官方舞蹈视频模版-获取tag](https://wpqplz6rik.apifox.cn/304421775e0.md): 这边获取的data[0].id为tagID
+- 视频模型 > Viggle 舞蹈合成 > 普通版 有水印 [获取官方舞蹈视频模版-获取tag下的模版](https://wpqplz6rik.apifox.cn/304421776e0.md): 获取官方舞蹈视频模版
+- 视频模型 > Pika > 通用版 [generate (文生视频\图生视频\视频生视频)](https://wpqplz6rik.apifox.cn/304421777e0.md): 
+- 视频模型 > Pika > 通用版 [获取pika affect列表(免费](https://wpqplz6rik.apifox.cn/304421778e0.md): 
+- 视频模型 > Pika > 通用版 [查询视频任务(免费](https://wpqplz6rik.apifox.cn/304421779e0.md): 字段	类型	说明
+- 视频模型 > 即梦 [即梦3 视频生成](https://wpqplz6rik.apifox.cn/304421780e0.md): 
+- 视频模型 > 即梦 [任务查询](https://wpqplz6rik.apifox.cn/304421781e0.md): 
+- 数字人 [生成数字人视频](https://wpqplz6rik.apifox.cn/304421782e0.md): 上传图片/视频和音频/文本，生成对应的数字人视频
+- 数字人 [获取任务详情(免费](https://wpqplz6rik.apifox.cn/304421783e0.md): 根据任务ID获取生成结果的详细信息
+- 数字人 [查询默认 voice 列表(免费](https://wpqplz6rik.apifox.cn/304421784e0.md): 
+- 绘图模型 > OpenAI Dall-e 格式 [Flux](https://wpqplz6rik.apifox.cn/304421785e0.md): model 支持
+- 绘图模型 > OpenAI Dall-e 格式 [Recraftv3](https://wpqplz6rik.apifox.cn/304421786e0.md): model 支持
+- 绘图模型 > OpenAI Dall-e 格式 [文生图](https://wpqplz6rik.apifox.cn/304421787e0.md): [图片](https://platform.openai.com/docs/api-reference/images)
+- 绘图模型 > OpenAI Dall-e 格式 [图像编辑(gpt-image-1)](https://wpqplz6rik.apifox.cn/304421788e0.md): official docs:  
+- 绘图模型 > OpenAI Dall-e 格式 [Dall-e 携带参考图](https://wpqplz6rik.apifox.cn/304421789e0.md): 仅部分模型支持 图片 参考
+- 绘图模型 > OpenAI 聊天格式 [Chat(兼容Flux)](https://wpqplz6rik.apifox.cn/304421790e0.md): 给定一个提示，该模型将返回一个或多个预测的完成，并且还可以返回每个位置的替代标记的概率。
+- 绘图模型 > OpenAI 聊天格式 [Chat(兼容Recraftv3)](https://wpqplz6rik.apifox.cn/304421791e0.md): 给定一个提示，该模型将返回一个或多个预测的完成，并且还可以返回每个位置的替代标记的概率。
+- 绘图模型 > OpenAI 聊天格式 [Chat(兼容Dalle3\Dalle2)](https://wpqplz6rik.apifox.cn/304421792e0.md): 
+- 绘图模型 > Mid journey 文生图 > 换脸任务提交 [提交swap_face任务](https://wpqplz6rik.apifox.cn/304421793e0.md): 
+- 绘图模型 > Mid journey 文生图 > 任务提交 [绘图变化(UPSCALE; VARIATION; REROLL)](https://wpqplz6rik.apifox.cn/304421794e0.md): 
+- 绘图模型 > Mid journey 文生图 > 任务提交 [执行动作(所有的关联按钮动作UPSCALE; VARIATION; REROLL; ZOOM等)](https://wpqplz6rik.apifox.cn/304421795e0.md): 
+- 绘图模型 > Mid journey 文生图 > 任务提交 [绘图变化-simple(UPSCALE; VARIATION; REROLL)](https://wpqplz6rik.apifox.cn/304421796e0.md): 
+- 绘图模型 > Mid journey 文生图 > 任务提交 [提交Blend任务(图生图)](https://wpqplz6rik.apifox.cn/304421797e0.md): 
+- 绘图模型 > Mid journey 文生图 > 任务提交 [提交Describe任务(图生文)](https://wpqplz6rik.apifox.cn/304421798e0.md): 
+- 绘图模型 > Mid journey 文生图 > 任务提交 [提交Imagine任务(文生图、文图生图)](https://wpqplz6rik.apifox.cn/304421799e0.md): 
+- 绘图模型 > Mid journey 文生图 > 任务提交 [提交Modal(提交局部重绘、ZOOM)](https://wpqplz6rik.apifox.cn/304421800e0.md): 
+- 绘图模型 > Mid journey 文生图 > 任务提交 [提交Shorten任务(prompt分析)](https://wpqplz6rik.apifox.cn/304421801e0.md): 
+- 绘图模型 > Mid journey 文生图 > 任务提交 [上传图片获得url](https://wpqplz6rik.apifox.cn/304421802e0.md): 
+- 绘图模型 > Mid journey 文生图 > 任务查询(免费 [根据ID列表查询任务(免费](https://wpqplz6rik.apifox.cn/304421803e0.md): 
+- 绘图模型 > Mid journey 文生图 > 任务查询(免费 [指定ID获取任务(免费](https://wpqplz6rik.apifox.cn/304421804e0.md): 
+- 绘图模型 > Mid journey 文生图 > 任务查询(免费 [获取任务图片的seed(免费](https://wpqplz6rik.apifox.cn/304421805e0.md): 
+- 绘图模型 > Flux 文生图 [Openai Dalle3 Edits 格式](https://wpqplz6rik.apifox.cn/304421806e0.md): 如果支持参考图，例如 flux-kontext ，参考图url 放 prompt 中空格隔开
+- 绘图模型 > Flux 文生图 [Replicate 格式](https://wpqplz6rik.apifox.cn/304421807e0.md): 详细查看 Replicate 模型文档
+- 绘图模型 > Flux 文生图 [Openai Chat 格式](https://wpqplz6rik.apifox.cn/304421808e0.md): 给定一个提示，该模型将返回一个或多个预测的完成，并且还可以返回每个位置的替代标记的概率。
+- 绘图模型 > Flux 文生图 [OpenAI Dalle3 Edits 格式](https://wpqplz6rik.apifox.cn/304421809e0.md): 仅支持 flux-kontext pro、max ，支持多图参考
+- 绘图模型 > Ideogram(官方格式 [Generate  3.0（文生图） ](https://wpqplz6rik.apifox.cn/304421810e0.md): 使用 Ideogram 3.0 模型，根据给定的提示和可选参数同步生成图像
+- 绘图模型 > Ideogram(官方格式 [Edit 3.0（编辑）](https://wpqplz6rik.apifox.cn/304421811e0.md): 使用提供的蒙版和 Ideogram 3.0 同步编辑给定图像。蒙版指示应编辑图像的哪个部分，而提示和所选样式可以进一步指导编辑
+- 绘图模型 > Ideogram(官方格式 [Remix 3.0（混合图）](https://wpqplz6rik.apifox.cn/304421812e0.md): Remix 根据给定的提示和可选参数与 Ideogram 3.0 模型同步提供图像。
+- 绘图模型 > Ideogram(官方格式 [Reframe 3.0（重构） ](https://wpqplz6rik.apifox.cn/304421813e0.md): 使用 Ideogram 3.0 将方形图像重构为选定的分辨率。支持的图像格式包括 JPEG、PNG 和 WebP。
+- 绘图模型 > Ideogram(官方格式 [Replace Background 3.0（背景替换） ](https://wpqplz6rik.apifox.cn/304421814e0.md): 使用 Ideogram 3.0 的提示同步替换给定图像的背景。将识别并保留前景主题，而背景将根据提示和所选样式进行替换。支持的图像格式包括 JPEG、PNG 和 WebP。图片链接在有限的时间内可用;如果您想保留图像，则必须下载它。。
+- 绘图模型 > Ideogram(官方格式 [ideogram（文生图）](https://wpqplz6rik.apifox.cn/304421815e0.md): Generates images synchronously based on a given prompt and optional parameters.
+- 绘图模型 > Ideogram(官方格式 [Remix（混合图）](https://wpqplz6rik.apifox.cn/304421816e0.md): Remix provided images synchronously based on a given prompt and optional parameters
+- 绘图模型 > Ideogram(官方格式 [Upscale（放大高清）](https://wpqplz6rik.apifox.cn/304421817e0.md): Remix provided images synchronously based on a given prompt and optional parameters
+- 绘图模型 > Ideogram(官方格式 [Describe（描述）](https://wpqplz6rik.apifox.cn/304421818e0.md): Describe an image
+- 绘图模型 > Ideogram(官方格式 [Edit（编辑）](https://wpqplz6rik.apifox.cn/304421819e0.md): Remix provided images synchronously based on a given prompt and optional parameters
+- 绘图模型 > recraft 官方格式 [Generate Image（生成图片）](https://wpqplz6rik.apifox.cn/304421820e0.md): 
+- 绘图模型 > recraft 官方格式 [Vectorize Image（矢量化图片）](https://wpqplz6rik.apifox.cn/304421821e0.md): 
+- 绘图模型 > recraft 官方格式 [Remove Background（删除背景）](https://wpqplz6rik.apifox.cn/304421822e0.md): 
+- 绘图模型 > recraft 官方格式 [Clarity Upscale（清晰度提升）](https://wpqplz6rik.apifox.cn/304421823e0.md): 
+- 绘图模型 > recraft 官方格式 [Generative Upscale（生成高清）](https://wpqplz6rik.apifox.cn/304421824e0.md): 
+- 绘图模型 > recraft 官方格式 [Create style（创建样式）](https://wpqplz6rik.apifox.cn/304421825e0.md): 
+- 绘图模型 > 快手可灵(官方格式)  [虚拟试穿](https://wpqplz6rik.apifox.cn/304421826e0.md): 官方文档：https://docs.qingque.cn/d/home/eZQClW07IFEuX1csc-VejdY2M#section=h.kz5geyrjtazf
+- 绘图模型 > 快手可灵(官方格式)  [图像生成](https://wpqplz6rik.apifox.cn/304421827e0.md): 本文档不实时更新，完整版请查看官方文档：https://docs.qingque.cn/d/home/eZQClW07IFEuX1csc-VejdY2M
+- 绘图模型 > 快手可灵(官方格式)  [查询任务(免费](https://wpqplz6rik.apifox.cn/304421828e0.md): 
+- 绘图模型 > SeedEdit(图片编辑 [Dall-e 格式](https://wpqplz6rik.apifox.cn/304421829e0.md): 
+- 绘图模型 > SeedEdit(图片编辑 [OpenAI 聊天格式](https://wpqplz6rik.apifox.cn/304421830e0.md): 
+- 绘图模型 > Replicate [获取任务进度（predictions (免费](https://wpqplz6rik.apifox.cn/304421831e0.md): 
+- 绘图模型 > Replicate [创建任务-通过模型version（predictions）](https://wpqplz6rik.apifox.cn/304421832e0.md): version models 支持以下
+- 绘图模型 > Replicate [创建任务-通过url路径](https://wpqplz6rik.apifox.cn/304421833e0.md): models 支持以下
+- 绘图模型 > Replicate [创建任务-stability-ai/stable-diffusion](https://wpqplz6rik.apifox.cn/304421834e0.md): https://replicate.com/stability-ai/stable-diffusion
+- 绘图模型 > Replicate [创建任务-stability-ai/sdxl](https://wpqplz6rik.apifox.cn/304421835e0.md): https://replicate.com/stability-ai/sdxl
+- 绘图模型 > Replicate [创建任务-stability-ai/stable-diffusion-inpainting](https://wpqplz6rik.apifox.cn/304421836e0.md): https://replicate.com/stability-ai/stable-diffusion-inpainting?input=http
+- 绘图模型 > Replicate [创建任务-stability-ai/stable-diffusion-img2img](https://wpqplz6rik.apifox.cn/304421837e0.md): https://replicate.com/stability-ai/stable-diffusion-img2img?input=http
+- 绘图模型 > Replicate [创建任务-lucataco/flux-schnell-lora](https://wpqplz6rik.apifox.cn/304421838e0.md): https://replicate.com/lucataco/flux-schnell-lora?input=http
+- 绘图模型 > Replicate [创建任务-lucataco/flux-dev-lora](https://wpqplz6rik.apifox.cn/304421839e0.md): https://replicate.com/lucataco/flux-dev-lora
+- 绘图模型 > Replicate [创建任务-andreasjansson/stable-diffusion-animation](https://wpqplz6rik.apifox.cn/304421840e0.md): https://replicate.com/andreasjansson/stable-diffusion-animation
+- 绘图模型 > Replicate [创建任务-lucataco/animate-diff](https://wpqplz6rik.apifox.cn/304421841e0.md): https://replicate.com/lucataco/animate-diff
+- 绘图模型 > Replicate [创建任务-sujaykhandekar/object-removal](https://wpqplz6rik.apifox.cn/304421842e0.md): https://replicate.com/sujaykhandekar/object-removal?input=http
+- 绘图模型 > Replicate [创建任务-cjwbw/rembg](https://wpqplz6rik.apifox.cn/304421843e0.md): https://replicate.com/cjwbw/rembg
+- 绘图模型 > Replicate [创建任务-black-forest-labs/flux-1.1-pro](https://wpqplz6rik.apifox.cn/304421844e0.md): https://replicate.com/black-forest-labs/flux-1.1-pro?input=http
+- 绘图模型 > Replicate [创建任务-black-forest-labs/flux-1.1-pro-ultra](https://wpqplz6rik.apifox.cn/304421845e0.md): https://replicate.com/black-forest-labs/flux-1.1-pro-ultra?input=http
+- 绘图模型 > Replicate [创建任务-black-forest-labs/flux-dev](https://wpqplz6rik.apifox.cn/304421846e0.md): https://replicate.com/black-forest-labs/flux-dev
+- 绘图模型 > Replicate [创建任务-black-forest-labs/flux-pro](https://wpqplz6rik.apifox.cn/304421847e0.md): https://replicate.com/black-forest-labs/flux-pro?input=http
+- 绘图模型 > Replicate [创建任务-black-forest-labs/flux-schnell](https://wpqplz6rik.apifox.cn/304421848e0.md): https://replicate.com/black-forest-labs/flux-schnell
+- 绘图模型 > Replicate [创建任务-minimax/video-01-live](https://wpqplz6rik.apifox.cn/304421849e0.md): https://replicate.com/minimax/video-01-live
+- 绘图模型 > Replicate [创建任务-minimax/video-01](https://wpqplz6rik.apifox.cn/304421850e0.md): https://replicate.com/minimax/video-01?input=http
+- 绘图模型 > Replicate [创建任务-recraft-ai/recraft-v3](https://wpqplz6rik.apifox.cn/304421851e0.md): https://replicate.com/recraft-ai/recraft-v3
+- 绘图模型 > Replicate [创建任务-recraft-ai/recraft-v3-svg](https://wpqplz6rik.apifox.cn/304421852e0.md): https://replicate.com/recraft-ai/recraft-v3-svg
+- 绘图模型 > Replicate [创建任务-ideogram-ai/ideogram-v2-turbo](https://wpqplz6rik.apifox.cn/304421853e0.md): https://replicate.com/ideogram-ai/ideogram-v2-turbo
+- 绘图模型 > Replicate [创建任务-black-forest-labs/flux-kontext-pro](https://wpqplz6rik.apifox.cn/304421854e0.md): https://replicate.com/black-forest-labs/flux-kontext-pro
+- 绘图模型 > Replicate [创建任务-black-forest-labs/flux-kontext-max](https://wpqplz6rik.apifox.cn/304421855e0.md): https://replicate.com/black-forest-labs/flux-kontext-max
+- 绘图模型 >  豆包智能绘图 [同步请求例子: SeedEdit ](https://wpqplz6rik.apifox.cn/304421856e0.md): https://www.volcengine.com/docs/6791/1279296
+- 绘图模型 >  豆包智能绘图 [异步请求提交例子: SeedEdit](https://wpqplz6rik.apifox.cn/304421857e0.md): 当前商品下的能力已支持通过同步转异步接口进行异步调用，
+- 绘图模型 >  豆包智能绘图 [异步请求查询例子: SeedEdit](https://wpqplz6rik.apifox.cn/304421858e0.md): 当前商品下的能力已支持通过同步转异步接口进行异步调用，
+- 绘图模型 >  豆包智能绘图 [即梦3.0](https://wpqplz6rik.apifox.cn/304421859e0.md): https://www.volcengine.com/docs/85128/1526761
+- 绘图模型 >  豆包智能绘图 [通用2.1-文生图](https://wpqplz6rik.apifox.cn/304421860e0.md): https://www.volcengine.com/docs/6791/1279296
+- 绘图模型 >  豆包智能绘图 [通用2.0Pro-指令编辑（SeedEdit）](https://wpqplz6rik.apifox.cn/304421861e0.md): https://www.volcengine.com/docs/6791/1279296
+- 绘图模型 >  豆包智能绘图 [通用2.0Pro-文生图](https://wpqplz6rik.apifox.cn/304421862e0.md): {
+- 绘图模型 >  豆包智能绘图 [通用2.0-角色特征保持](https://wpqplz6rik.apifox.cn/304421863e0.md): https://www.volcengine.com/docs/6791/1279296
+- 绘图模型 >  豆包智能绘图 [通用2.0-文生图](https://wpqplz6rik.apifox.cn/304421864e0.md): https://www.volcengine.com/docs/6791/1279296
+- 绘图模型 >  豆包智能绘图 [通用2.0Pro-图生图](https://wpqplz6rik.apifox.cn/304421865e0.md): https://www.volcengine.com/docs/6791/1279296
+- 绘图模型 >  豆包智能绘图 [通用1.4-角色特征保持](https://wpqplz6rik.apifox.cn/304421866e0.md): https://www.volcengine.com/docs/6791/1279296
+- 绘图模型 >  豆包智能绘图 [通用1.4-文生图](https://wpqplz6rik.apifox.cn/304421867e0.md): https://www.volcengine.com/docs/6791/1279296
+- 绘图模型 >  豆包智能绘图 [动漫1.3.X-文生图/图生图](https://wpqplz6rik.apifox.cn/304421868e0.md): https://www.volcengine.com/docs/6791/1279296
+- 绘图模型 >  豆包智能绘图 [通用XL pro-图生图](https://wpqplz6rik.apifox.cn/304421869e0.md): https://www.volcengine.com/docs/6791/1279296
+- 绘图模型 >  豆包智能绘图 [通用XL pro-文生图](https://wpqplz6rik.apifox.cn/304421870e0.md): https://www.volcengine.com/docs/6791/1279296
+- 绘图模型 >  豆包智能绘图 [AI营销商品图](https://wpqplz6rik.apifox.cn/304421871e0.md): https://www.volcengine.com/docs/6791/1279296
+- 绘图模型 >  豆包智能绘图 [单图写真（pv版](https://wpqplz6rik.apifox.cn/304421872e0.md): 将输入的人像图片通过大模型生成技术，生成与输入人像特征高相似的风格化图片，目前4种头像风格（单人、男女均支持）和9种胸像写真风格（单人、只支持女生）
+- 绘图模型 >  豆包智能绘图 [inpainting涂抹消除](https://wpqplz6rik.apifox.cn/304421873e0.md): 用户可通过涂抹、选区等方式建立重绘区域，调用算法重新绘制。此功能为不支持输入prompt的消除功能，在路人消除、杂物消除、水印消除等任务表现较好，推荐使用分割接口来进行消除，消除的人物选择完整，建议一次性给客户返回3-4个效果供客户进行挑选。
+- 绘图模型 >  豆包智能绘图 [inpainting涂抹编辑](https://wpqplz6rik.apifox.cn/304421874e0.md): 用户可通过涂抹、选区等方式建立重绘区域，调用算法重新绘制。此功能为支持输入prompt的涂抹编辑功能，按照prompt生成指定内容。考虑效果更优，建议一次性给客户返回3-4个效果供客户进行挑选。
+- 绘图模型 >  豆包智能绘图 [outpainting智能扩图](https://wpqplz6rik.apifox.cn/304421875e0.md): 智能扩图支持多种扩展类型，包括：等比扩展、画幅扩展、四边扩展、画布扩展，用户prompt可选输入，不输入则按照算法默认逻辑进行扩展。
+- 绘图模型 >  豆包智能绘图 [实时生图-图生图](https://wpqplz6rik.apifox.cn/304421876e0.md): 本接口提供根据用户的草图与文本提示，进行实时绘图的能力。核心是参考用户绘制图片的框架结构，结合用户输入的文本提示，实时转化为精美的图像
+- 音频接口 > Suno文生歌 [生成歌曲(灵感模式)](https://wpqplz6rik.apifox.cn/304421877e0.md): 
+- 音频接口 > Suno文生歌 [生成歌曲(自定义模式)](https://wpqplz6rik.apifox.cn/304421878e0.md): 
+- 音频接口 > Suno文生歌 [生成歌曲(续写模式)](https://wpqplz6rik.apifox.cn/304421879e0.md): 
+- 音频接口 > Suno文生歌 [生成歌曲(歌手风格) ](https://wpqplz6rik.apifox.cn/304421880e0.md): # 接入步骤：
+- 音频接口 > Suno文生歌 [生成歌曲(上传歌曲二次创作)](https://wpqplz6rik.apifox.cn/304421881e0.md): 
+- 音频接口 > Suno文生歌 [生成歌曲(拼接歌曲)](https://wpqplz6rik.apifox.cn/304421882e0.md): 
+- 音频接口 > Suno文生歌 [生成歌词](https://wpqplz6rik.apifox.cn/304421883e0.md): 
+- 音频接口 > Suno文生歌 [上传请求](https://wpqplz6rik.apifox.cn/304421884e0.md): 
+- 音频接口 > Suno文生歌 [报告上传完毕](https://wpqplz6rik.apifox.cn/304421885e0.md): 
+- 音频接口 > Suno文生歌 [查询上传处理状态](https://wpqplz6rik.apifox.cn/304421886e0.md): 
+- 音频接口 > Suno文生歌 [初始化音频文件](https://wpqplz6rik.apifox.cn/304421887e0.md): 
+- 音频接口 > Suno文生歌 [Persona:创建歌手风格](https://wpqplz6rik.apifox.cn/304421888e0.md): clip_id 需要系统内存在的,非 uploader
+- 音频接口 > Suno文生歌 [查询歌词](https://wpqplz6rik.apifox.cn/304421889e0.md): 
+- 音频接口 > Suno文生歌 [查询歌曲](https://wpqplz6rik.apifox.cn/304421890e0.md): 
+- 音频接口 > Suno文生歌 [批量获取任务](https://wpqplz6rik.apifox.cn/304421891e0.md): 
+- 音频接口 > Suno文生歌 [声曲分离](https://wpqplz6rik.apifox.cn/304421892e0.md): 
+- 音频接口 > Suno文生歌 [Timing:歌词、音频时间线](https://wpqplz6rik.apifox.cn/304421893e0.md): 
+- 音频接口 > Suno文生歌 [wav:获取 wav 格式文件](https://wpqplz6rik.apifox.cn/304421894e0.md): 
+- 音频接口 > Suno文生歌 [mp4:生成 mp4 mv 视频](https://wpqplz6rik.apifox.cn/304421895e0.md): 
+- 音频接口 > Suno文生歌 [上传音乐通过 url](https://wpqplz6rik.apifox.cn/304421896e0.md): 
+- 音频接口 > Suno文生歌 [生成歌曲 (v1 版本)](https://wpqplz6rik.apifox.cn/304421897e0.md): 
+- 音频接口 > Suno文生歌 [拼接歌曲 (v1 版本)](https://wpqplz6rik.apifox.cn/304421898e0.md): 
+- 音频接口 > Suno文生歌 [生成歌词 (v1 版本)](https://wpqplz6rik.apifox.cn/304421899e0.md): 
+- 音频接口 > Suno文生歌 [查询歌曲 (v1 版本)](https://wpqplz6rik.apifox.cn/304421900e0.md): 
+- 音频接口 > Suno文生歌 [查询歌词 (v1 版本)](https://wpqplz6rik.apifox.cn/304421901e0.md): 
+- 音频接口 > OpenAI(TTS\Wishper [创建语音(tts](https://wpqplz6rik.apifox.cn/304421902e0.md): 支持流式返回，可以一边读取返回，一边播放。
+- 音频接口 > OpenAI(TTS\Wishper [创建转录(whisper](https://wpqplz6rik.apifox.cn/304421903e0.md): 
+- 音频接口 > OpenAI(TTS\Wishper [创建翻译(whisper](https://wpqplz6rik.apifox.cn/304421904e0.md): 
+- 文件上传（Files） [上传文件](https://wpqplz6rik.apifox.cn/304421905e0.md): 上传可跨各种端点/功能使用的文件。一个组织上传的所有文件大小最大可达 100 GB。
+- PPT接口 > 文多多(官方格式) [分页查询 PPT 模板(免费](https://wpqplz6rik.apifox.cn/304421906e0.md): 
+- PPT接口 > 文多多(官方格式) [更换 PPT 模板(免费](https://wpqplz6rik.apifox.cn/304421907e0.md): 
+- PPT接口 > 文多多(官方格式) [修改大纲(免费](https://wpqplz6rik.apifox.cn/304421908e0.md): 响应 event-stream，结构同 generateOutline 生成大纲，该接口用来修改调整大纲结构
+- PPT接口 > 文多多(官方格式) [解析文件内容(免费](https://wpqplz6rik.apifox.cn/304421909e0.md): 
+- PPT接口 > 文多多(官方格式) [生成大纲(免费](https://wpqplz6rik.apifox.cn/304421910e0.md): 
+- PPT接口 > 文多多(官方格式) [生成大纲内容(免费](https://wpqplz6rik.apifox.cn/304421911e0.md): 
+- PPT接口 > 文多多(官方格式) [随机 PPT 模板(免费](https://wpqplz6rik.apifox.cn/304421912e0.md): 
+- PPT接口 > 文多多(官方格式) [获取 PPT 列表(免费](https://wpqplz6rik.apifox.cn/304421913e0.md): 
+- PPT接口 > 文多多(官方格式) [加载 PPT 数据(免费](https://wpqplz6rik.apifox.cn/304421914e0.md): 
+- PPT接口 > 文多多(官方格式) [下载 PPT(免费](https://wpqplz6rik.apifox.cn/304421915e0.md): 
+- PPT接口 > 文多多(官方格式) [更新 PPT 属性(免费](https://wpqplz6rik.apifox.cn/304421916e0.md): 
+- PPT接口 > 文多多(官方格式) [保存 PPT(免费](https://wpqplz6rik.apifox.cn/304421917e0.md): 
+- PPT接口 > 文多多(官方格式) [删除PPT(免费](https://wpqplz6rik.apifox.cn/304421918e0.md): 
+- PPT接口 > 文多多(官方格式) [生成大纲内容同时异步生成PPT(免费](https://wpqplz6rik.apifox.cn/304421919e0.md): 
+- PPT接口 > 文多多(官方格式) [查询异步生成PPT信息(免费](https://wpqplz6rik.apifox.cn/304421920e0.md): 说明：该接口不需要轮询，在 generateContent 接口流式返回 pptId 数据时调用，每出现一次 pptId 就调用一次获取最新的 PPT 信息
+- PPT接口 > 文多多(官方格式) [ppt转json(免费](https://wpqplz6rik.apifox.cn/304421921e0.md): 
+- PPT接口 > 文多多(官方格式) [json转ppt](https://wpqplz6rik.apifox.cn/304421922e0.md): 
+- 平台API [获取用户信息（余额](https://wpqplz6rik.apifox.cn/304421923e0.md): token 需要在 个人中心生成 系统令牌 进行调用
+- 废弃、未开放 > Vidu(官方格式) > 普通 [创建视频(tasks)](https://wpqplz6rik.apifox.cn/304421924e0.md): 
+- 废弃、未开放 > Vidu(官方格式) > 普通 [高清视频(tasks)](https://wpqplz6rik.apifox.cn/304421925e0.md): 
+- 废弃、未开放 > Vidu(官方格式) > 普通 [视频状态(state)](https://wpqplz6rik.apifox.cn/304421926e0.md): 
+- 废弃、未开放 > Vidu(官方格式) > 普通 [视频查询(tasks-get)](https://wpqplz6rik.apifox.cn/304421927e0.md): 
+- 废弃、未开放 > Udio文生歌 [根据描述创建音乐](https://wpqplz6rik.apifox.cn/304421928e0.md): 详细请看接入流程
+- 废弃、未开放 > Udio文生歌 [根据歌词创建音乐](https://wpqplz6rik.apifox.cn/304421929e0.md): 详细请看接入流程
+- 废弃、未开放 > Udio文生歌 [音乐续写](https://wpqplz6rik.apifox.cn/304421930e0.md): **config.source.song_id**
+- 废弃、未开放 > Udio文生歌 [获取任务进度(免费](https://wpqplz6rik.apifox.cn/304421931e0.md): 当"finished": true, 时，歌曲完成。两个歌曲都为 "finished": true,  时，任务完成
+- 废弃、未开放 > Sora [创建视频](https://wpqplz6rik.apifox.cn/304421932e0.md): 尺寸参数:
+- 废弃、未开放 > Sora [查询视频任务(免费](https://wpqplz6rik.apifox.cn/304421933e0.md): status 有 
+- 废弃、未开放 > 通用版 [生成任务](https://wpqplz6rik.apifox.cn/304421934e0.md): 
+- 废弃、未开放 > 通用版 [查询任务(免费](https://wpqplz6rik.apifox.cn/304421935e0.md): 状态 1 完成成功 5 已提交 10 生成中 7 内容审核不通过失败 8 生成失败
+- 废弃、未开放 > 通用版 [创建角色](https://wpqplz6rik.apifox.cn/304421936e0.md): 
+- 列出模型 [Models（列出模型）](https://wpqplz6rik.apifox.cn/304425577e0.md): 列出当前可用的模型，OpenAI 格式

@@ -1,0 +1,79 @@
+# Messages(官方Anthropic格式)
+
+## OpenAPI
+
+```yaml
+openapi: 3.0.1
+info:
+  title: ''
+  description: ''
+  version: 1.0.0
+paths:
+  /BASE_URL/v1/messages:
+    post:
+      summary: Messages(官方Anthropic格式)
+      deprecated: false
+      description: ''
+      tags:
+        - 聊天(Chat)/Claude 官方格式
+      parameters:
+        - name: Content-Type
+          in: header
+          description: ''
+          required: false
+          example: application/json
+          schema:
+            type: string
+        - name: Accept
+          in: header
+          description: ''
+          required: false
+          example: '*/*'
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: Authorization 或x-api-key
+          required: false
+          example: Bearer {{key}}
+          schema:
+            type: string
+        - name: x-api-key
+          in: header
+          description: ''
+          required: false
+          example: '{{key}}'
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties: {}
+            example:
+              model: claude-3-5-sonnet-20240620
+              max_tokens: 1024
+              messages:
+                - role: user
+                  content: Hello, world
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+          headers: {}
+          x-apifox-name: 成功
+      security: []
+      x-apifox-folder: 聊天(Chat)/Claude 官方格式
+      x-apifox-status: released
+      x-run-in-apifox: https://app.apifox.com/web/project/3868318/apis/api-228980408-run
+components:
+  schemas: {}
+  securitySchemes: {}
+servers: []
+security: []
+```
